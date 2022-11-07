@@ -1,0 +1,250 @@
+@media screen and (min-width: 480px) {
+}
+.tribes{
+    float: left;
+    padding-left: 4%;
+    display: block;
+    
+
+}
+.tribes2{
+text-align: center;
+font-size: larger;
+display: block;
+padding-left: 35%;
+padding-right: 10%;
+font-weight: 600;
+color: white;
+}
+h1{
+    text-align: center;
+    padding-top: 5%;
+    color:wheat;
+    font-size: 50px;
+    font-family: 'Reggae One', cursive;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: bisque;
+    
+}
+.adivasi{
+    float: right;
+    padding-right: 4%;
+}
+.adivasi2{
+    text-align: center;
+font-size: larger;
+display: block;
+padding-right: 40%;
+padding-left: 8%;
+font-weight: 600;
+color: white;
+
+}
+.history{
+    background-image: url("history.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.culture{
+    background-image: url("culture.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.economy{
+    background-image: url("economy.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.geography{
+    background-image: url("geoo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.transportation{
+    background-image: url("transport.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.transport1{
+    color: darkblue;
+}
+.transport2{
+    color:firebrick;
+    font-weight: 600;
+    font-family:'Bubblegum Sans', cursive;
+    font-size: 40px;
+}
+.rail2,.roads2,.air2{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+.rail,.roads,.air{
+    font-family: 'Suez One', serif;
+    font-size: 50px;
+}
+.rail3{
+    padding-top: 5%;
+    float: left;
+    padding-left: 5%;
+}
+.rail2{
+    padding-left: 50%;
+}
+.wait{
+    text-align: right;
+    color: rgb(247, 102, 19);
+    padding-right: 10%;
+    padding-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.locate{
+    text-align: right;
+    color: white;
+    padding-right: 8%;
+    font-size: 40px;
+    
+}
+.Geo{
+    text-align: right;
+    color:rgb(20, 219, 20);
+    padding-right: 3%;
+    padding-top: 2.3%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+}
+.geo2{
+    text-align: center;
+    font-size: 25px;
+    color:beige;
+    font-weight: 600;
+    padding-left: 45%;
+    padding-top: 10%;
+    padding-right:10% ;
+}
+.eco{
+    text-align: center;
+    padding-top: 5%;
+    color:darkred;
+    font-size: 50px;
+    font-family: 'Reggae One', cursive;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.coal{
+    float: right;
+    padding-right:15%;
+    padding-top: 2%;
+}
+.coalecon{
+    padding-left: 10%;
+    text-align: center;
+    padding-right: 50%;
+    color:black;
+    font-weight: 700;
+    font-size: large;
+}
+
+.bccl{
+    padding-left: 12%;
+}
+.culture2{
+    text-align: center;
+font-size: larger;
+display: block;
+padding-left: 45%;
+padding-right: 10%;
+font-weight: 600;
+color: white;
+padding-top: 3%;
+
+}
+.chatt{
+    padding-left: 18%;
+    font-size: x-large;
+    color: beige;
+}
+.music{
+    text-align: center;
+font-size: larger;
+display: block;
+padding-right: 40%;
+padding-left: 43%;
+font-weight: 600;
+color: white;
+padding-top: 1%;
+}
+.dance{
+    float: right;
+    padding-right: 4%;
+}
+.instrument{
+    float: left;
+    padding-left: 4%;
+}
+.tri{
+    color: beige;
+    padding-left: 13%;
+    font-size: x-large;
+}
+.trib{
+    padding-left: 78%;
+    color: beige;
+    font-size: x-large;
+}
+.talks{
+    text-align: center;
+    padding-top: 5%;
+    color:tomato;
+    font-size: 50px;
+    font-family: 'Reggae One', cursive;
+}
+.us{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    color: forestgreen;
+}
+.bye{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    color: palevioletred;
+}
+a:link{
+    color: purple;
+    
+}
+a:visited{
+    color: rebeccapurple;
+}
+a:hover{
+    color: rosybrown;
+}
+a{
+    font-size: xx-large;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 700;
+    padding-left: 38%;
+}
+

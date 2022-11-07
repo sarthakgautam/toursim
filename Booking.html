@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">               
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking form</title>
+    <link rel="stylesheet" href="bookingstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="trip">
+    <h1 class="bookheading">"BOOK YOUR TRIP TO VRINDAVAN HERE....."</h1>
+    <h2 class="bookheading2">I promise , you'll not regret....</h2>
+    <br><br>
+    <form action="" >
+        <p class="name"> Enter your First name: <input class="namefield" type="text" placeholder="First name" id="fname" onkeyup="lettersOnly(this)" required></p>
+        <p class="name"> Enter your Last name: <input class="namefield" type="text" placeholder="Last name" id="lname" onkeyup="lettersOnly(this)" required></p>
+        
+        <p class="date"> But when were you born? <input class="date1" type="date" id="date" > </p>
+        <p class="email">Enter your Email.. <input class="email1" type="email" id="mail" placeholder="xyz@gmail.com"></p>
+        <p class="mobile">Enter your Contact Number.. <input class="mobile1" type="number" id="number" onkeyup="NumbersOnly(this)" placeholder="10-digit-number"></p>
+        <fieldset>
+        <legend class="gender">Gender</legend>
+                <p class="gender1">
+            Male <input type="radio" name="Gender" class="gender2" id="male" required> 
+            Female <input type="radio" name="Gender" class="gender2" id="female" required> 
+            Other <input type="radio" name="Gender" class="gender2" id="other" required> </fieldset>
+            <p class="address">Address:&nbsp;&nbsp;&nbsp;<textarea name="address" id="address" class="address1" placeholder="Enter your address" required></textarea>  </p>
+            <p class="city"> Where do you live?: <input class="city1" type="text" placeholder=" Enter your city" onkeyup="lettersOnly(this)" id="cityname" required></p>
+            <p class="pincode"> Enter the PINCODE: <input class="pincode1" type="number" placeholder="Enter-the-6-digit-number" onkeyup="Numbers2Only(this)" id="pincode" required></p>
+            <p class="state"> Which state do you belong to? <input class="state1" type="text" placeholder="Enter your state" onkeyup="lettersOnly(this)" id="state" required></p>
+            <p class="country"> Which country do you live in? <input class="country1" type="text" placeholder="Enter your country" onkeyup="lettersOnly(this)" id="country" required></p>
+            <p class="fileupload"> Upload your identity proof: <input class="fileupload1" type="file" accept="image/*" name="file" required></p>
+            <br><br>
+            
+            <input type="submit" value="BOOK NOW"></div>
+
+    </form>
+    <h1 class="end">That's &nbsp; it &nbsp; for&nbsp; now...</h1>
+    <h3 class="end1">An official from our team would call , clear all your queries and also book you your flight, train, hotel tickets at an affordable price making your stay worth every penny...❤!!</h3>
+    <a href="index.html" target="_blank">Go back to Home page>>></a>
+</div>
+<script>
+function lettersOnly(input)
+{
+    var a= /[^a-z]/gi;
+    input.value=input.value.replace(a,"");
+}
+function NumbersOnly(input1)
+{
+    var mobilenum=/^\d{10}$/;
+    if(input1.value.match(mobilenum))
+    {
+        return true;
+    }
+    else{
+        alert("Invalid Mobile Number");
+        return false;
+    }
+}
+function Numbers2Only(input2)
+{
+    var pincod=/^\d{6}$/;
+    if(input2.value.match(pincod))
+    {
+        return true;
+    }
+    else{
+        alert("Invalid Pincode");
+        return false;
+    }
+}
+</script>
+</body>
+</html>

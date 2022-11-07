@@ -1,0 +1,142 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #df1d1d;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color:cadetblue;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  h1{
+      text-align: center;
+      font-style: italic;
+      
+      font-family:'Times New Roman', Times, serif;
+      font-size: 80px;
+      color:beige;
+  }
+  .heading{
+      text-align: center;
+      padding-top: 2%;
+      padding-right: 3%;
+      color:blanchedalmond;
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700;
+      font-size: 50px;
+     
+  }
+  .front{
+      background-image: url("Vrindavan/premmandir.jpg");
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+  }
+  .red{
+      color: red;
+      
+  }
+  .cursor{
+      color:beige;
+      font-family:'Times New Roman', Times, serif;
+      font-weight:900 ;
+      width: 30px;
+      font-size: 30px;
+      background-color: rgba(17, 17, 17, 0.315);
+      
+  }
+      .location{
+       display:inline;
+       float:inline-end;
+       
+      }
+  
+  .contact{
+      display: inline;
+      color: cadetblue;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: 1000;
+      font-size: larger;
+      
+      
+  }
+  .contact a:link{
+      color: blueviolet;
+  }
+  .contact a:visited{
+      color: cadetblue;
+  }
+  .contact a:hover{
+      color: yellow;
+  }
+  footer{
+      padding-left: 15%;
+      padding-top: 10%;
+  }
+  h3{
+      color: wheat;
+      text-align: center;
+      font-size: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+  }
+  .coal{
+      padding-left: 35%;
+     
+  }
+  .vibe{
+      text-align: center;
+      font-family: 'Shadows Into Light', cursive;
+      font-size: xx-large;
+      font-weight: 800;
+  }
+  .offer{
+      text-align: center;
+      font-family: 'Shadows Into Light', cursive;
+      font-size: xx-large;
+      font-weight: 600;
+      color: darkcyan;
+  }
+  .come{
+      text-align: center;
+      font-family: 'Shadows Into Light', cursive;
+      font-size: xx-large;
+  font-weight: 900;
+  }
+  u{
+      color: cadetblue;
+  }
+  

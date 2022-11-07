@@ -1,0 +1,98 @@
+.bookheading{
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+    padding-top: 5%;
+}
+.bookheading2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+.trip{
+    background-image: url("trip.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.name,.date,.email,.mobile,.gender,.address,.city,.pincode,.state,.country{
+   
+    padding-left: 40%;
+    font-size: 30px;
+    color:red;
+    font-weight: 800;
+}
+.fileupload{
+    padding-left: 30%;
+    font-size: 30px;
+    color:wheat;
+    font-weight: 800;
+}
+.namefield,.date1,.email1,.mobile1,.city1,.pincode1,.state1,.fileupload1,.country1{
+    width: 45%;
+    height: 50px;
+}
+.address1{
+    width: 60%;
+    height: 120px;
+    padding-top: 5%;
+
+}
+.address{
+    padding-bottom: 5%;
+}
+.gender1{
+    color: bisque;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+input[type="submit"] {
+    background-color:rgb(138, 194, 162);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: lighter;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: none;
+    font-size: 30px;
+    text-shadow: grey;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+    
+::placeholder{
+    color: cadetblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    padding-left: 40%;
+    opacity: 1;
+    
+}
+.end{
+    text-align: center;
+    color:maroon;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Abril Fatface', cursive;
+}
+.end1{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 35px;
+    color:darkmagenta;
+}
+a{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 25px;
+    color: maroon;
+    padding-left: 40%;
+    font-weight: 900;
+}
+a:hover{
+    color: blueviolet;
+}
